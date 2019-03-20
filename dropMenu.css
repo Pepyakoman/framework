@@ -1,0 +1,29 @@
+.b-dropMenu {
+
+}
+.b-dropMenu__menuHead {
+	max-width: 100px;
+	max-height: 20px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.b-dropMenu__menuBody {
+	max-width: 200px;
+	max-height: 500px;
+	border: 2px solid grey;
+	border-radius: 5px;
+	cursor: pointer;
+	position: relative;
+	top: 2px;
+	display: none;
+}
+.b-dropMenu__menuBody_open {
+	display: block;
+}
+.b-dropMenu__menuBody__elem:hover {
+	background-color: lightgrey;
+}
+.b-dropMenu__menuBody__elem_select {
+	background-color: skyblue;
+}
